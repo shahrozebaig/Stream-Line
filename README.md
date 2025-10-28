@@ -28,7 +28,6 @@ Streamline delivers a **seamless reading experience** where news, weather, and t
 
 ---
 
-
 ## 🛠️ **Tech Stack**
 
 - ⚛️ **React** – 19.2.0 (Frontend Framework)  
@@ -41,6 +40,8 @@ Streamline delivers a **seamless reading experience** where news, weather, and t
 ---
 
 ## 📁 **Project Structure**
+
+```
 streamline-news/
 ├── public/
 │   ├── favicon.ico
@@ -60,6 +61,7 @@ streamline-news/
 ├── package.json               # Dependencies and scripts
 ├── package-lock.json          # Dependency lock file
 └── README.md                  # Project documentation
+```
 
 ---
 
@@ -72,50 +74,95 @@ streamline-news/
   - [NewsData.io](https://newsdata.io/)  
   - [OpenWeatherMap](https://openweathermap.org/)
 
+### 📥 **Installation**
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/streamline-news.git
+   cd streamline-news
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   
+   Create a `.env` file in the root directory:
+   ```env
+   REACT_APP_NEWSDATA_API_KEY=your_newsdata_api_key
+   REACT_APP_WEATHER_API_KEY=your_openweather_api_key
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+5. **Open in browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
 ---
 
 ## 📖 **Usage**
-🗂️ Browse categories to explore news
-🔍 Use search to find any topic instantly
-🌤️ Switch weather city for updated info
-🌗 Toggle between dark and light themes
-📖 Read full articles via “Read more →”
-🔄 Keep scrolling — articles load automatically!
+
+1. 🗂️ **Browse categories** – Click any category button to filter news
+2. 🔍 **Search news** – Type in the search bar and press Enter
+3. 🌤️ **Change weather location** – Select a city from the dropdown
+4. 🌗 **Toggle theme** – Click the moon/sun icon for dark/light mode
+5. 📖 **Read articles** – Click "Read more →" to view full article
+6. 🔄 **Infinite scroll** – Keep scrolling to load more articles automatically!
 
 ---
 
-##🎨 **Features in Detail**
-📰 News Categories
-Stay informed with:
-Top, Business, Entertainment, Sports, Technology, Science, Health, Environment, and World.
+## 🎨 **Features in Detail**
 
-🌦️ Weather Info
-Covers 9 Indian cities — Hyderabad, Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Pune, Jaipur, Ahmedabad.
-Shows 🌡️ temperature + condition icons.
+### 📰 **News Categories**
+- Stay informed with: Top, Business, Entertainment, Sports, Technology, Science, Health, Environment, and World
+- Dynamic filtering with instant updates
 
-🔍 Search
-Smart, real-time news search — updates instantly as you type.
+### 🌦️ **Weather Information**
+- Covers 9 major Indian cities: Hyderabad, Delhi, Mumbai, Bengaluru, Chennai, Kolkata, Pune, Jaipur, Ahmedabad
+- Shows 🌡️ temperature (°C) + condition icons
 
-♾️ Infinite Scrolling
-Loads more articles as you reach the bottom, ensuring uninterrupted reading.
+### 🔍 **Search Functionality**
+- Smart, real-time news search
+- Updates instantly as you type
+- Clears category filter when searching
 
-🌗 Dark/Light Mode
-Persistent theme preference with a sleek UI toggle 🌞🌚.
+### ♾️ **Infinite Scrolling**
+- Automatic pagination as you scroll
+- Loading indicator while fetching
+- Smooth, uninterrupted reading experience
 
----
-
-##🌐 **API Configuration**
-📰 NewsData.io
-Get your API key → newsdata.io
-Fetches latest headlines from global sources
-Supports search & category filters
-
-🌤️ OpenWeatherMap
-Get your key → openweathermap.org
-Real-time weather data with icons
+### 🌗 **Dark/Light Mode**
+- Persistent theme preference
+- Toggle button in the header
+- Beautiful UI adaptations for both modes 🌞🌚
 
 ---
 
-## 📄 License This project is open source and available under the [MIT License](LICENSE). 
+## 🌐 **API Configuration**
+
+The app uses two external APIs:
+
+### 📰 **NewsData.io**
+- Get your free API key at [newsdata.io](https://newsdata.io/)
+- Fetches latest headlines from global sources
+- Supports search & category filters
+
+### 🌤️ **OpenWeatherMap**
+- Get your free API key at [openweathermap.org](https://openweathermap.org/api)
+- Real-time weather data with icons
+- Free tier includes current weather and 5-day forecast
 
 ---
+
+## 📄 **License**
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
