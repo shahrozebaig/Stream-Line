@@ -40,7 +40,7 @@ Streamline delivers a **seamless reading experience** where news, weather, and t
 
 ---
 
-## 📁 Project Structure
+## 📁 **Project Structure**
 streamline-news/
 ├── public/
 │   ├── favicon.ico
@@ -74,7 +74,7 @@ streamline-news/
 
 ---
 
-##📖 Usage:
+## 📖 **Usage**
 🗂️ Browse categories to explore news
 🔍 Use search to find any topic instantly
 🌤️ Switch weather city for updated info
@@ -84,7 +84,7 @@ streamline-news/
 
 ---
 
-##🎨 Features in Detail
+##🎨 **Features in Detail**
 📰 News Categories
 Stay informed with:
 Top, Business, Entertainment, Sports, Technology, Science, Health, Environment, and World.
@@ -104,7 +104,7 @@ Persistent theme preference with a sleek UI toggle 🌞🌚.
 
 ---
 
-##🌐 API Configuration
+##🌐 **API Configuration**
 📰 NewsData.io
 Get your API key → newsdata.io
 Fetches latest headlines from global sources
