@@ -1,7 +1,6 @@
 # 🌊 **Streamline – News That Flows to You**
 
-Streamline is a modern **React-based** web app that keeps users updated with the latest 📰 **news** from around the world — all in **real time**.
-
+Streamline is a modern web app that keeps users updated with the latest 📰 **news** from around the world — all in **real time**.
 It offers a clean, dynamic, and interactive interface where you can:
 
 📰 **Explore News by Categories** – Stay updated with sections like Business, Sports, Technology, Science, Health, and more.  
@@ -12,6 +11,12 @@ It offers a clean, dynamic, and interactive interface where you can:
 ♾️ **Infinite Scrolling** – Keep reading without interruption as more articles load automatically.
 
 Streamline delivers a **seamless reading experience** where news, weather, and time come together — all in one flow 🌍✨
+
+---
+
+# Deployment
+
+https://stream-line.onrender.com
 
 ---
 
