@@ -44,6 +44,28 @@ https://stream-line.onrender.com
 
 ---
 
+## 🛠️ **Architecture Diagram**
+
+
+
+
+
+
+<img width="1936" height="1453" alt="Streamline" src="https://github.com/user-attachments/assets/972ce042-f6ff-443f-9a43-5a13d4ae7050" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 ## 📁 **Project Structure**
 
 ```
