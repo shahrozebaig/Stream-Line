@@ -59,35 +59,20 @@ https://stream-line.onrender.com
 
 
 
-
-
-
-
-
-
 ---
 ## 📁 **Project Structure**
 
 ```
-streamline-news/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── manifest.json
-│   ├── robots.txt
-│   └── SL.jpg                 # Logo
+streamline-news/           
 ├── src/
-│   ├── App.js                 # Main application component
-│   ├── App.css                # Application styles
-│   ├── App.test.js            # App tests
-│   ├── index.js               # React DOM entry point
-│   ├── index.css              # Global styles
-│   ├── logo.svg               # React logo
-│   ├── reportWebVitals.js     # Performance monitoring
-│   └── setupTests.js          # Test configuration
-├── package.json               # Dependencies and scripts
-├── package-lock.json          # Dependency lock file
-└── README.md                  # Project documentation
+│   ├── App.js                 
+│   ├── App.css                 
+│   ├── index.css                       
+│   ├── reportWebVitals.js     
+│   └── setupTests.js       
+├── package.json               
+├── package-lock.json          
+└── README.md                  
 ```
 
 ---
